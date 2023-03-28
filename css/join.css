@@ -1,0 +1,115 @@
+@charset "utf-8";
+.pageHero{
+    background-color: #37003c;
+    margin-top: 10px;
+    background-image: url(../images/pageHero.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    position: relative;
+    padding: 20px;
+    height: 106px;
+}
+.titleArea{
+    max-width: 1376px;
+    margin-left: 100px;
+    height: 100px;
+}
+.pagetitle{
+    font-size: 4em;
+    font-weight: bold;
+    color: #fff;
+}
+#joincontents {
+    width: 100%;
+    height: 550px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.mainjoin {
+    text-align: center;
+}
+.mainjoin form {
+    margin: 0 auto;
+}
+.mainjoin > h3 {
+    width: 500px;
+    height: 20px;
+    background-color: rgb(250, 10, 142);
+    color: #fff;
+    margin: 0 auto;
+    padding: 10px 0 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.inlinefield {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 730px;
+    height: 49px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.word {
+    width: 150px;
+    height: 43px;
+    padding-top: 15px;
+}
+.word span{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #38003C !important;
+}
+.inputbox, .inputbox>input, .contury>select{
+    width: 350PX;
+    height: 43px;
+    background-color: rgb(232, 232, 232);
+}
+.inputbox>input, .contury>select{
+    border-color: #ccc;
+    border-radius: 3px;
+}
+.gender {
+    width: 350PX;
+    height: 43px;
+}
+.gender ul{
+    display: flex;
+    flex-direction: row;
+}
+.gender ul li{
+    margin-left: 50px;
+}
+.gender ul li label {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #6C3483;
+    border-radius: 25px;
+    color: #6C3483;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  .gender span {
+    padding-left: 10px;
+  }
+  .gender ul li input[type=radio]:checked + label {
+    background-color: #6C3483;
+    color: #fff;
+  }
+#joincontents .btn {
+    text-align: center;
+}
+
+.btnjoin {
+    background-color: rgb(77, 77, 243);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 240px;
+    border-radius: 5px;
+}

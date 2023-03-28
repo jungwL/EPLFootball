@@ -1,0 +1,106 @@
+@charset "utf-8";
+.pageHero{
+    background-color: #37003c;
+    margin-top: 10px;
+    background-image: url(../images/pageHero.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    position: relative;
+    padding: 20px;
+    height: 106px;
+}
+.titleArea{
+    max-width: 1376px;
+    margin-left: 100px;
+    height: 100px;
+}
+.pagetitle{
+    font-size: 4em;
+    font-weight: bold;
+    color: #fff;
+}
+#logincontents {
+    width: 100%;
+    height: auto ;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+.mainlogin>h3 {
+    width: 500px;
+    height: 20px;
+    background-color: rgb(250, 10, 142);
+    color: #fff;
+    margin: 0 auto;
+    padding: 10px 0 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.mainlogin span{
+    display: block;
+    font-size: 1em;
+    font-weight: 800;
+    margin: 15px 0 ;
+}
+.mainlogin input[type="text"],.mainlogin input[type="password"] {
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.btnlogin {
+    background-color: rgb(77, 77, 243);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 240px;
+    border-radius: 5px;
+  }
+  
+.btnjoin {
+    background-color: rgb(124, 50, 124);
+    padding: 10px 80px 10px 80px;
+    border: none;
+    cursor: pointer;
+    width: 240px;
+    border-radius: 5px;
+  }
+.btnjoin span {
+    color: #fff;
+}
+.mainlogin  h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.or {
+    color: #8d8c8c;
+    margin: 20px 0 20px 0;
+}
+.or::before {
+    content: "--------------------";
+    color: #8d8c8c;
+}
+
+.or::after {
+    content: "--------------------";
+    color: #8d8c8c;
+}
+#orlogin {
+    width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+}
+#orlogin img {
+    cursor: pointer;
+    width: 180px;
+    height: 35px;
+    border-radius: 5px;
+}

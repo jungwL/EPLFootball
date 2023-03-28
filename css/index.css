@@ -1,0 +1,482 @@
+@charset "utf-8";
+/*순위표 영역 시작*/
+#contents1{
+    width: 16%;
+    margin-left: 30px;
+    position: relative;
+    max-width: 250px;
+}
+#contents1 .title {
+    width: 215px;
+    height: 70px;
+    background: #ff2882;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#contents1 .firstTeam {
+    width: 200px;
+    height: 25px;
+    background-color: #fff;
+    margin: 0 10px 0 10px ;
+    position: absolute;
+    top: 55px;
+    left: -3px;
+    border-radius: 5px 5px 0 0;
+}
+#contents1 .firstTeam h3 {
+    text-align: center;
+    color: black;
+    font-size: 0.7em;
+}
+#contents1 .title h2 {
+    color: #fff;
+    font-size: 0.9em;
+    padding: 10px 15px;
+    text-align: center;
+    
+}
+.ranking table tr:first-child{
+    background-color: #e9e6e6;
+}
+.ranking table {
+    width: 215px;
+    height: 280px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+.ranking table:hover{
+    box-shadow: 3px 3px 3px 3px #555555;
+}
+.ranking  table th {
+    padding-left: 5px;
+    font-size: 0.8em;
+    color: #817e7ea1;
+    padding-bottom: 5px;
+}
+.ranking  table .teams {
+    font-weight: bold;
+}
+.ranking  table tr td {
+    padding-left: 5px;
+    border-bottom: 1px solid #ccc;
+    font-size: 0.8em;
+}
+.ranking table tr .num{
+    font-weight: bold;
+    padding-left: 13px;
+}
+.ranking tr td img{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+/*순위표 영역 끝*/
+/*베스트 플레이어 영역 시작*/
+.bestP {
+    background-color: #fff;
+    width: 215px;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.bestP:hover {
+    box-shadow: 3px 3px 3px 3px #555555;
+}
+.bestP h2{
+    font-size: 1em;
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+.bestP h3 img{
+    width: 210px;
+    margin-left: 2px;
+    border-radius: 5px;
+}
+.bestP p{
+    font-size: 0.8em;
+    
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0 10px 10px;
+}
+.bestP p span{
+    font-weight: bold;
+    margin-left: 40px;
+    color: rgb(102, 10, 189);
+}
+.bestP .appear span{
+    margin-left: 90px;
+}
+.bestP .goals span{
+    margin-left: 140px;
+}
+.bestP .assists span{
+    margin-left: 135px;
+}
+.bestP .shots span{
+    margin-left: 135px;
+}
+.bestP .club img {
+    width: 18px;
+    height: 18px;
+}
+/*베스트 플레이어 영역 끝*/
+/*메인 기사영역 시작*/
+#contents2{
+    width: 68%;
+    margin-right:10px;
+    margin-left: 10px;
+    display: flex;
+    max-width: 1060px;
+    position: relative;
+}
+.animation_canvas{
+    position: relative;
+    width: 503px;   
+    overflow: hidden;
+}
+.slider_panel{
+    position: relative;
+    width: 2700px;
+}
+.slider_image{
+    width: 503px;
+    height: 408px;
+    float: left;
+}
+.control_panel {
+    position: absolute;
+    top: 390px;
+    left: 230px;
+    height: 13px;
+    overflow: hidden;
+}
+.control_button{
+    position: relative;
+    cursor: pointer;
+    background: url(../images/point_button.png);
+    float: left;
+    width: 12px;
+    height: 46px;
+}
+.control_button:hover {
+    top: -16px;
+}
+.control_button.active {
+    top: -31px;
+}
+.left_right_control_panel{
+    position: relative;
+}
+.left_right_control_panel .left_control{
+    position: absolute;
+    top: 170px;
+    left: 10px;
+    cursor: pointer;
+    width: 21px;
+    height: 70px;
+}
+.left_right_control_panel .right_control {
+    position: absolute;
+    top: 170px;
+    right: 10px;
+    cursor: pointer;
+    width: 21px;
+    height: 70px;
+}
+#contents2 .image {
+    width: 503px;
+    height: 408px;
+    margin-top: 10px;
+    background: rgba(55,0,60,.9);
+    border-radius: 5px;
+}
+#contents2 .mainNEWS {
+    background: rgba(55,0,60,.9);
+    width: 503px;
+    height: 408px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#contents2 .mainNEWS div .title{
+    padding: 10px;
+    font-size: 2em;
+    color: #fff;
+    font-weight: 800;
+}
+#contents2 .mainNEWS div .sub{   
+    padding: 10px;
+    font-size: 1em;
+    color: #fff;
+}
+.mainNEWS .related {
+    font-size: 1.2em;
+    color: #fff;
+    margin: 40px 0 10px 50px;
+}
+.videPart div{
+    margin-top: 30px;
+    position: relative;
+}
+.mainNEWS .videPart span {
+    font-size: 0.9em;
+    color: #fff; 
+    text-align: left;
+    padding-left: 50px;
+}
+.videPart img{
+    width: 25px;
+    position: absolute;
+    left: 15px;
+    z-index: 10;
+}
+.mainNEWS .videPart span::before{
+    content: "";
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    width:35px;
+    height:35px;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.subNews {
+  position: absolute;
+  top: 440px;
+  display: flex;
+}
+.subnews1{
+    width: 498px;
+    height: 91px;
+    position: relative;
+    margin: 0 20px 0 0;
+}
+.subtext {
+    display: inline-block;
+    width: 407px;
+    height: 91px;
+    background-color: rgba(55,0,60,.9);
+    position: absolute; 
+}
+.subtext span{
+    color: #28ff3a;
+    font-size: 0.8em;
+    padding: 20px;
+    font-style: italic;
+}
+.subtext h4{
+    color: #fff;
+    padding: 10px;
+}
+.subNews img {
+  width: 91px;
+  height: 91px;
+}
+.lastNews {
+    position: absolute;
+    top: 550px;
+    border-top: 2px solid #efefef;
+    border-bottom: 2px solid #efefef;
+}
+.lastNews header{
+    margin: 15px;
+}
+.lastNews header h3 {
+    font-size: 1.5em;
+    color: #fff;
+}
+.lastNews nav ul {
+    display: flex;
+}
+.lastNews nav ul li{
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 240px;
+    overflow: hidden;
+    
+}
+.lastNews ul .lastLI1::before{
+    content: "";
+    position: absolute;
+    top: 68px;
+    left: 30px;
+    height: 5px;
+    width: 200px;
+    background: linear-gradient(270deg,#ff2882,#963cff);
+}
+.lastNews ul .lastLI2::before{
+    content: "";
+    position: absolute;
+    top: 68px;
+    left: 290px;
+    height: 5px;
+    width: 200px;
+    background: linear-gradient(270deg,#ff2882,#963cff);
+}
+.lastNews ul .lastLI3::before{
+    content: "";
+    position: absolute;
+    top: 68px;
+    left: 550px;
+    height: 5px;
+    width: 200px;
+    background: linear-gradient(270deg,#ff2882,#963cff);
+}
+.lastNews ul .lastLI4::before{
+    content: "";
+    position: absolute;
+    top: 68px;
+    left: 815px;
+    height: 5px;
+    width: 200px;
+    background: linear-gradient(270deg,#ff2882,#963cff);
+}
+.newsImage {
+    width: 240px;
+    border-radius: 3px; 
+    transition: transform 0.5s ease;
+}
+.newsImage:hover{
+    transform: scale(1.2);
+}
+.lastNews nav ul figcaption span{
+    display: block;
+    margin: 9px;
+}
+.lastNews nav ul figcaption .tag{
+    font-size: 0.8em;
+    color: #e90052;
+    font-style: italic;
+}
+.lastNews nav ul figcaption .subtitle{
+    font-size: 1.1em;
+    color: black;
+}
+.ball {
+    position: absolute;
+    top: 930px;
+    left: 20px;
+}
+.mainball {
+    width: 1000px;
+    height: 150px;
+    display: inline-block;
+    display: flex;
+    background: linear-gradient(to bottom, #f73939,#f76f39 100%);
+    border-radius: 3px;
+}
+.ballimg{
+    width: 200px;
+    padding: 20px;
+}
+.ballimg img {
+    width: 150px;
+    height: 101px;
+    margin-left: 20px;
+}
+.ballinfo{
+    width: 740px;
+    padding: 20px 40px 0 40px;
+}
+.ballinfo h3{
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.4em;
+}
+.ballinfo p{
+    font-weight: normal;
+    color: #fff;
+    font-size: 0.9em;
+}
+.ballinfo .Exbtn {
+    background-color:rgba(55,0,60,.9);
+    padding: 8px 15px 8px 15px;
+    margin-top: 20px;
+    width: 90px;
+    height: 20px;
+    border-radius: 3px;
+}
+.ballinfo a span {
+    color: #fff;
+    margin-left: 5px;
+}
+/*메인 기사영역 끝*/
+/*주요일정 영역 시작*/
+#contents3{
+    width: 16%;
+    margin-right: 20px;
+    max-width: 250px;
+    position: relative;
+}
+.playResult::before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    height: 5px;
+    width: 190px;
+    background: linear-gradient(270deg,#ff2882,#963cff);
+}
+#contents3 .playResult{
+    width: 210px;
+    height: auto;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.playResult:hover{
+    box-shadow: 3px 3px 3px 3px #555555;
+}
+.playResult h4 {
+    color: red;
+    text-align: center;
+    font-size: 0.7em;
+    padding-top: 20px;
+}
+.playResult h3{
+    color: rgba(55,0,60,.9);
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.day img {
+    width: 25px;
+    height: 25px;
+}
+.day .soccer_date{
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+}
+.day li {
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.day li span {
+    width: 15px;
+    height: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    margin: 0 5px 0 5px;
+}
+.day li:first-child span {
+    border: none;
+    text-align: center;
+}
+/*주요일정 영역 끝*/
