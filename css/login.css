@@ -30,7 +30,7 @@
 .mainlogin>h3 {
     width: 500px;
     height: 20px;
-    background-color: rgb(250, 10, 142);
+    background-color: #37003c;
     color: #fff;
     margin: 0 auto;
     padding: 10px 0 10px;
@@ -61,20 +61,22 @@
     padding: 10px;
     border: none;
     cursor: pointer;
-    width: 240px;
+    width: 220px;
     border-radius: 5px;
   }
   
 .btnjoin {
     background-color: rgb(124, 50, 124);
-    padding: 10px 80px 10px 80px;
+    padding: 8px 81px 8px 81px;
     border: none;
     cursor: pointer;
-    width: 240px;
+    width: 220px;
     border-radius: 5px;
+    height: 38px;
   }
 .btnjoin span {
     color: #fff;
+    font-size: 0.9em;
 }
 .mainlogin  h4 {
     margin-top: 10px;

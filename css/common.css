@@ -22,12 +22,12 @@ a:visited {
 
 #header {
     width: 100%;
-    height: auto;
+    height: 170px;
     position: relative;
 }
 #header .logo {
-    left: 50px;
-    top: 0;
+    margin-left: 40px;
+    margin-top: 10px;
 }
 .logo img {
     width: 190px;
@@ -37,7 +37,7 @@ a:visited {
 .teamlogo {
     position: absolute;
     top: 50px;
-    left: 420px;
+    left: 30%;
 }
 .teamlogo a {
     display: inline-block;
@@ -87,10 +87,12 @@ a:visited {
     position: relative;
     border: 1px solid #fff;
 }
-
+#header nav{
+    text-align: center;
+}
 .mainMenu > li {
     position: relative;
-    margin-left: 80px;
+    margin-left: 50px;
     display: inline-block;
 }
 
